@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+html{
+	background-color: black;
+	font-family: "Inter", sans-serif;
+	font-weight: 200;
+}
+
+section{
+	/* margin:auto; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	color: white;
+	
+}
+
+
+
+form{
+	width: 500px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+input{
+	background-color: black;
+	color: white;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	font-size: 17px;
+}
+
+input:focus{
+	outline: none;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    color-scheme: dark;
+	accent-color: white;
+}
+
+button{
+	width: 25%;
+	padding:10px;
+}
